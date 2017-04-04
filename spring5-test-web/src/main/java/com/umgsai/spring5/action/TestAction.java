@@ -18,6 +18,7 @@ public class TestAction {
     public String test (Model model) {
         today = "2017-4-4 19:45:39";
         model.addAttribute("today", today);
+        model.addAttribute("xss", "<script>alert('test')</script>");
         return "test";
     }
 }
