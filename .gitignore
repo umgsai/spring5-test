@@ -1,7 +1,6 @@
 .settings
 .project
 .idea
-*.iml
 **/.settings
 **/.classpath
 **/.eclipse
