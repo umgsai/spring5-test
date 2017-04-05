@@ -1,4 +1,4 @@
-package com.umgsai.spring5.test.biz;
+package com.umgsai.spring5.test.biz.impl;
 
 import com.umgsai.spring5.test.api.TestService;
 

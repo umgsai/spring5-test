@@ -12,6 +12,7 @@
         <module>spring5-test-web</module>
         <module>spring5-test-api</module>
         <module>spring5-test-biz</module>
+        <module>spring5-test-service</module>
     </modules>
 
     <dependencyManagement>
