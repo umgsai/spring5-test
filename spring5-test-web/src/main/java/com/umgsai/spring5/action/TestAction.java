@@ -4,6 +4,7 @@ import lombok.Getter;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
+import java.time.LocalDate;
 
 /**
  * Created by Shang on 2017-4-4.
@@ -17,7 +18,7 @@ public class TestAction {
     @RequestMapping(value = "/test")
     public String test (Model model) {
         today = "2017-4-4 19:45:39";
-        model.addAttribute("today", today);
+        model.addAttribute("today", LocalDate.now().toString());
         model.addAttribute("xss", "<script>alert('test')</script>");
         return "test";
     }
