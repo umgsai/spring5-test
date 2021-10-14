@@ -18,5 +18,9 @@ public class MainTest {
     @Test
     public void test() {
         System.out.println("this is a test");
+        log.info("This is a test");
+        log.error("error log");
+
+        log.warn("warn log");
     }
 }
